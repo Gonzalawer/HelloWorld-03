@@ -113,7 +113,6 @@ Inicia INDEX
     background-image: url(../img/banner.jpg);
 }
 
-
 .header {   
     height: 60rem;
     background-size: cover;
@@ -349,9 +348,15 @@ Inicia ENTRADA BLOG
 /* =====================================================
 Inicia CONTACTO
 =================================================== */
+.webp .contacto-bg {
+    background-image: url(../img/contacto.webp);
+}
+
+.no-webp .contacto-bg {
+    background-image: url(../img/contacto.jpg);
+}
 
 .contacto-bg {
-    background-image: url(../img/contacto.jpg);
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;

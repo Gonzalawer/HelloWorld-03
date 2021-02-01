@@ -68,7 +68,14 @@
 
             <div class="entrada-blog__imagen">
 
-                <img src="img/blog1.jpg" alt="Sobre Nosotros">
+                <picture>
+
+                    <source loading="lazy" srcset="/img/blog1.webp" type="image/webp">
+                    <img loading="lazy" src="img/blog1.jpg" alt="Sobre Nosotros">
+
+                </picture>
+
+
 
             </div>
 
@@ -125,6 +132,8 @@
 
 
     </footer>
+
+    <script src="js/modernizr.js"></script>
 
 </body>
 
